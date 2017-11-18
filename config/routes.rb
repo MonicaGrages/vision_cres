@@ -3,4 +3,10 @@ Rails.application.routes.draw do
 
   root to: "home#index"
 
+  get "/mission", to: "home#mission"
+  get "/inspections", to: "home#inspections"
+  get "/underwriting", to: "home#underwriting"
+  get "/solutions", to: "home#solutions"
+  get "/contact", to: "home#contact"
+
 end
