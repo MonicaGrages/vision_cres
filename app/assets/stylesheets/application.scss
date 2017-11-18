@@ -17,10 +17,23 @@
 
 body{
 	background-image: url(city-background.jpg);
+	margin: 0;
 }
 
 header{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: #000080;
 	margin: 25px;
+	font-weight: bold;
 }
+
+nav{
+  background-color: gray;
+  ul{
+  	display: flex;
+  	li{
+  		list-style-type: none;
+  	}
+  }
+}
+
