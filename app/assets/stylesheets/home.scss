@@ -3,19 +3,37 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 .city-image-row{
-	height: 200px;
+	display: flex;
+	justify-content: center;
 	img{
-		height: 200px;
-  		width: 275px;
+  		width: 24.5vw;
+  		height: 20vw;
+/*  		margin-right: 3px;
+  		margin-left: 3px;*/
+  	}
+  	img.right-margin{
+  		margin-right: 0.5vw;
+  	}
+  	img.left-margin{
+  		margin-left: 0.5vw;
   	}
 }
 
 .city-name-row{
-	height: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+	height: 28px;
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
-	li span{
-		font-size: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	li{
+		font-size: 10px;
 		text-transform: none;
 	}
+	li.big-city-name{
+		font-size: 17px;
+	}
+
 }
