@@ -2,7 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.city-image-row img{
-  height: 200px;
-  width: 275px;
+.city-image-row{
+	height: 200px;
+	img{
+		height: 200px;
+  		width: 275px;
+  	}
+}
+
+.city-name-row{
+	height: 25px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	li span{
+		font-size: 15px;
+		text-transform: none;
+	}
 }

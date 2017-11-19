@@ -26,10 +26,17 @@ body{
 header{
 	color: #000080;
 	margin: 25px;
-	font-weight: bold;
+	.header-title{
+		font-size: 40px;
+		margin: 0;
+	}
+	.header-subtitle{
+		margin: 0;
+	}
 }
 
 nav{
+  padding: 0;
   background: rgba(153,153,153,1);
   background: -moz-linear-gradient(top, rgba(153,153,153,1) 0%, rgba(102,102,102,1) 39%, rgba(89,89,89,1) 59%, rgba(143,143,143,1) 100%);
   background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(153,153,153,1)), color-stop(39%, rgba(102,102,102,1)), color-stop(59%, rgba(89,89,89,1)), color-stop(100%, rgba(143,143,143,1)));
@@ -41,6 +48,9 @@ nav{
   ul{
   	display: flex;
   	justify-content: space-around;
+  	margin: 0;
+  	padding: 0;
+  	height: 30px;
   	li{
   		list-style-type: none;
   		color: #ffffe0;
@@ -53,5 +63,9 @@ nav{
   		}
   	}
   }
+}
+
+.header-nav{
+	border-top: black 1px solid;
 }
 
