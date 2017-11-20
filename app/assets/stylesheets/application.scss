@@ -18,7 +18,7 @@
 body{
 	background-image: url(https://i.imgur.com/zmPPKcX.png);
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat-y;
 	margin: 0;
 	font-family: 'Source Sans Pro', sans-serif;
 }
@@ -69,6 +69,20 @@ nav{
 .header-nav{
 	border-top: black 1px solid;
 }
+
+main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: bold;
+	h2{
+		color: #000080;
+	}
+	div{
+		width: 65%;
+	}
+}
+
 .footer-nav{
 	margin-top: 40px;
 	padding-bottom: 7px;
