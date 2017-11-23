@@ -2,24 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
 .city-image-row{
 	display: flex;
 	justify-content: center;
 	img{
-  		width: 24.5vw;
-  		height: 20vw;
+  		width: 260px;
+  		height: 200px;
 /*  		margin-right: 3px;
   		margin-left: 3px;*/
   	}
   	img.right-margin{
-  		margin-right: 0.5vw;
+  		margin-right: 4px;
   	}
   	img.left-margin{
-  		margin-left: 0.5vw;
+  		margin-left: 4px;
   	}
 }
 
+.cities-container{
+	display: flex;
+	justify-content: center;
+}
+
 .city-name-row{
+	width: 1062px;
+}
+
+.city-names{
 	padding-right: 15px;
 	padding-left: 15px;
 	height: 28px;

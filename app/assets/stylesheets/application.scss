@@ -26,7 +26,7 @@ body{
 header{
 	color: #000080;
 	margin: 25px;
-	padding-left: 25px;
+	padding-left: 75px;
 	.header-title{
 		font-size: 40px;
 		margin: 0;
@@ -68,6 +68,7 @@ nav{
 
 .header-nav{
 	border-top: black 1px solid;
+	margin-bottom: 45px;
 }
 
 main{
@@ -84,7 +85,7 @@ main{
 }
 
 .footer-nav{
-	margin-top: 40px;
+	margin-top: 45px;
 	padding-bottom: 7px;
 	display: flex;
 	justify-content: center;
