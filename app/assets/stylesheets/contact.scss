@@ -3,7 +3,7 @@
 	flex-direction: row;
 	justify-content: center;
 	color: #000080;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .contact-info{
@@ -20,4 +20,10 @@
 	width: 30%;
 	border: 1px solid #000080;
 	padding: 10px;
+}
+
+.sub-heading{
+	font-family: sans-serif;
+	text-decoration: underline;
+	font-weight: bold;
 }
